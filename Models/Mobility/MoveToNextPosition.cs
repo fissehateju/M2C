@@ -94,7 +94,7 @@ namespace RR.Models.Mobility
             ObjectToMove = _sink;
             charger = _charger;
             counter = new NetworkOverheadCounter();
-            speed = 1;
+            speed = 5;
             PublicParamerters.MainWindow.lbl_par_Speed.Content = speed.ToString();
         }
 
